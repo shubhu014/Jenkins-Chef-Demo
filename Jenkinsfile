@@ -1,5 +1,3 @@
-properties([parameters([string(defaultValue: 'Devasish', description: 'Enter your name', name: 'Name'), choice(choices: ['QA', 'Dev', 'UAT', 'PROD'], description: 'Where you want to deploy?', name: 'Environnment')])])
-
 pipeline {
     agent any
 
@@ -9,7 +7,7 @@ pipeline {
                 echo "Hello ${Name} Your code is Building in ${Environnment} "
             }
         }
-        stage('Two') {
+        stage('Upload Cookbook to chef server, Converge Nodes') {
             steps {
                 echo "Hello ${Name} hard testing in  ${Environnment}"
             }
