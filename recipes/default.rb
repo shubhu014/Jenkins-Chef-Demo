@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'I have added one new user inside a newly created group'
+  content 'Now Chef workstation will also updated.'
 action :create
 end
 
