@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'I guess Webhook is not working properly'
+  content 'I have added one new user inside a newly created group'
 action :create
 end
 
@@ -30,5 +30,13 @@ user 'Raj'
 group "DataGeekGroup" do
   action :create
   members 'Raj'
+  append true
+end
+
+user 'Sunny'
+
+group "Chef_Expert" do
+  action :create
+  members 'Sunny'
   append true
 end
