@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'Testing if it is working fine2'
+  content 'Testing if it is working fine3'
 action :create
 end
 
