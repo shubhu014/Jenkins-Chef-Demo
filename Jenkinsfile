@@ -6,7 +6,7 @@ pipeline {
         
         stage('Download Cookbook') {
             steps {
-                git clone git@github.com/shubhu014/Jenkins-Chef-Demo.git
+                git clone github.com/shubhu014/Jenkins-Chef-Demo.git
             }
         }
         
