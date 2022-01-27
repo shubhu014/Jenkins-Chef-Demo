@@ -2,20 +2,17 @@ pipeline {
     agent any
 
     stages {
-        stage('one') {
+        stage('Update Ubuntu') {
             steps {
-                echo "Hello ${Name} Your code is Building in ${Environnment} "
+                sh 'sudo apt -get update'
             }
         }
-        stage('Upload Cookbook to chef server, Converge Nodes') {
+        
+        stage('Download Cookbook') {
             steps {
-                echo "Hello ${Name} hard testing in  ${Environnment}"
+                git credentialsID: '', url: 'https://github.com/shubhu014/Jenkins-Chef-Demo.git'
             }
         }
-        stage('Three') {
-            steps {
-                echo "Hello1 ${Name} deploying in  ${Environnment}"
-            }
-        }
+        
     }
 }
