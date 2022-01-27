@@ -10,7 +10,7 @@ pipeline {
         
         stage('Download Cookbook') {
             steps {
-                git credentialsID: '', url: 'https://github.com/shubhu014/Jenkins-Chef-Demo.git'
+                git url: 'https://github.com/shubhu014/Jenkins-Chef-Demo.git'
             }
         }
         
