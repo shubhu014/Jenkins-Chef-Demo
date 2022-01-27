@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'Testing if it is working fine4'
+  content 'I can see Knife cookbook upload command is working.'
 action :create
 end
 
