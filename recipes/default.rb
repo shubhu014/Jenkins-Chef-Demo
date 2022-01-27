@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'Webhook is working'
+  content 'I guess Webhook is not working properly'
 action :create
 end
 
