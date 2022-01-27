@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content '-c added in chef client command ......... Checking.......Now Chef workstation will also updated.'
+  content 'sudo -c added in chef client command ......... Checking.......Now Chef workstation will also updated.'
 action :create
 end
 
