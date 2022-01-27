@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'I can see Knife cookbook upload command is working. It is not working'
+  content 'Webhook is working'
 action :create
 end
 
