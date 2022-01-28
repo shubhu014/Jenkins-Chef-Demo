@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'removed 3rd step......... Checking.......Now Chef workstation will also updated.'
+  content 'Now both the nodes are being updated automatically'
 action :create
 end
 
