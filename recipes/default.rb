@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'Now both the nodes are being updated automatically'
+  content 'This is master Monday'
 action :create
 end
 
