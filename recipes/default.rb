@@ -5,7 +5,7 @@
 # Copyright:: 2022, The Authors, All Rights Reserved.
 #
 file '/myfile' do
-  content 'Today is cool Monday'
+  content 'Today is Monday'
 action :create
 end
 
